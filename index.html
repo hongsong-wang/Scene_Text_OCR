@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Paper collected by Wang</title>
+<title>arXiv Papers of Scene Text Understanding</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style type="text/css">
 
@@ -15,7 +15,7 @@ body {
   line-height: 1.6;
   color: #333;
   background-color: #fff;
-  padding: 20px;
+  padding: 10px 20px 10px 20px;
   max-width: 960px;
   margin: 0 auto;
 }
@@ -41,9 +41,8 @@ span#abs{
 }
 </style>
 </head>
-<body>
-
-</p></br></br><div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.01422.pdf' target='_blank'>https://arxiv.org/pdf/2512.01422.pdf</a></span>   <span><a href='https://github.com/Topdu/OpenOCR' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Yongkun Du, Miaomiao Zhao, Songlin Fan, Zhineng Chen, Caiyan Jia, Yu-Gang Jiang
+<body><div id='title' style='font-size:1.3em; font-weight:bold;'>arXiv Papers of Scene Text Understanding</div><br>
+<div id='section'>Paperid: <span id='pid'>1, <a href='https://arxiv.org/pdf/2512.01422.pdf' target='_blank'>https://arxiv.org/pdf/2512.01422.pdf</a></span>   <span><a href='https://github.com/Topdu/OpenOCR' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Yongkun Du, Miaomiao Zhao, Songlin Fan, Zhineng Chen, Caiyan Jia, Yu-Gang Jiang
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2512.01422">MDiff4STR: Mask Diffusion Model for Scene Text Recognition</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Mask Diffusion Models (MDMs) have recently emerged as a promising alternative to auto-regressive models (ARMs) for vision-language tasks, owing to their flexible balance of efficiency and accuracy. In this paper, for the first time, we introduce MDMs into the Scene Text Recognition (STR) task. We show that vanilla MDM lags behind ARMs in terms of accuracy, although it improves recognition efficiency. To bridge this gap, we propose MDiff4STR, a Mask Diffusion model enhanced with two key improvement strategies tailored for STR. Specifically, we identify two key challenges in applying MDMs to STR: noising gap between training and inference, and overconfident predictions during inference. Both significantly hinder the performance of MDMs. To mitigate the first issue, we develop six noising strategies that better align training with inference behavior. For the second, we propose a token-replacement noise mechanism that provides a non-mask noise type, encouraging the model to reconsider and revise overly confident but incorrect predictions. We conduct extensive evaluations of MDiff4STR on both standard and challenging STR benchmarks, covering diverse scenarios including irregular, artistic, occluded, and Chinese text, as well as whether the use of pretraining. Across these settings, MDiff4STR consistently outperforms popular STR models, surpassing state-of-the-art ARMs in accuracy, while maintaining fast inference with only three denoising steps. Code: https://github.com/Topdu/OpenOCR.
 <div id='section'>Paperid: <span id='pid'>2, <a href='https://arxiv.org/pdf/2511.17138.pdf' target='_blank'>https://arxiv.org/pdf/2511.17138.pdf</a></span>   <span><a href='https://github.com/RedMediaTech/ODTSR' target='_blank'>  GitHub</a></span></div></span></div><div id = 'author'>Authors:<span id = 'author'>Yushun Fang, Yuxiang Chen, Shibo Yin, Qiang Hu, Jiangchao Yao, Ya Zhang, Xiaoyun Zhang, Yanfeng Wang
 </span></div><div id="title">Title: <a href="https://arxiv.org/html/2511.17138">One-Step Diffusion Transformer for Controllable Real-World Image Super-Resolution</a></div></span></div><div id = 'abs'>Abstract:</br> <span id = 'abs'>Recent advances in diffusion-based real-world image super-resolution (Real-ISR) have demonstrated remarkable perceptual quality, yet the balance between fidelity and controllability remains a problem: multi-step diffusion-based methods suffer from generative diversity and randomness, resulting in low fidelity, while one-step methods lose control flexibility due to fidelity-specific finetuning. In this paper, we present ODTSR, a one-step diffusion transformer based on Qwen-Image that performs Real-ISR considering fidelity and controllability simultaneously: a newly introduced visual stream receives low-quality images (LQ) with adjustable noise (Control Noise), and the original visual stream receives LQs with consistent noise (Prior Noise), forming the Noise-hybrid Visual Stream (NVS) design. ODTSR further employs Fidelity-aware Adversarial Training (FAA) to enhance controllability and achieve one-step inference. Extensive experiments demonstrate that ODTSR not only achieves state-of-the-art (SOTA) performance on generic Real-ISR, but also enables prompt controllability on challenging scenarios such as real-world scene text image super-resolution (STISR) of Chinese characters without training on specific datasets. Codes are available at https://github.com/RedMediaTech/ODTSR.
